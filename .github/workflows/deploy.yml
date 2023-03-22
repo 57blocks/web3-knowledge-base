@@ -1,0 +1,41 @@
+name: build & deploy
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run deploy
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          role-to-assume: arn:aws:iam::123340007534:role/github-action-role
+          aws-region: us-east-1
+      
+      - name: Copy files to the bucket with the AWS CLI
+        run: |
+          aws s3 sync ./_book/ s3://57-web3-knowledge
+
+      - name: Create invalidation
+        run: |
+          aws cloudfront create-invalidation --distribution-id E3QD7AN4V8VKQ3 --paths "/*"
+    

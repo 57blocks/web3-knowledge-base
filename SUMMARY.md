@@ -59,7 +59,9 @@
 - [What is Dapp](dapp/what-is-dapp.md)
 - [Wallet Connect](dapp/wallet-connect/README.md)
   - [Connect to Wallet](dapp/wallet-connect/connect-to-wallet.md)
-- [Transaction Interaction](dapp/transaction-interaction.md)
+- [Contract Interaction](dapp/contract-interaction/README.md)
+  - [ABI](dapp/contract-interaction/ABI.md)
+  - [Read/Write Contract](dapp/contract-interaction/read-write-contract.md)
 
 ## The End
 

@@ -1,3 +1,7 @@
+# What is Dapp
+
+*shan@57blocks.com*
+
 A dapp has its backend code running on a decentralized peer-to-peer network. Contrast this with an app where the backend code is running on centralized servers.
 
 A dapp can have frontend code and user interfaces written in any language (just like an app) to make calls to its backend. Furthermore, its frontend can get hosted on decentralized storage such as [IPFS](https://ipfs.io/).
@@ -7,11 +11,11 @@ A dapp can have frontend code and user interfaces written in any language (just 
 - **Turing complete** - dapps can perform any action given the required resources
 - **Isolated** - dapps are executed in a virtual environment known as Ethereum Virtual Machine so that if the smart contract has a bug, it won’t hamper the normal functioning of the blockchain network
 
-# Architecture of Dapp
+## Architecture of Dapp
 
 ![Architecture of Dapp](../assets/images/architecture-of-dapp.png)
 
-# Dapp Frontend
+## Dapp Frontend
 
 For this tutorial, we will focus on frontend side of Dapp.
 
@@ -19,3 +23,9 @@ The frontend of a Dapp is built very similarly to a traditional web application 
 
 **Traditional web application:** Client → API → Database <br />
 **Decentralized application:** Client → Smart Contract → Blockchain
+
+## References
+
+[Everything I learned building my first DApp — a frontend perspective](https://coinsbench.com/everything-i-learnt-building-my-first-dapp-a-frontend-perspective-ba810be1493f)
+
+[Web3 Frontend – Everything You Need to Learn About Building Dapp Frontends](https://moralis.io/web3-frontend-everything-you-need-to-learn-about-building-dapp-frontends/)

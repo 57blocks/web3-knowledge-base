@@ -21,7 +21,21 @@
 ## Web3
 
 - [Introduction](web3/README.md)
-- [DeFi](web3/deFi.md)
+- [DeFi](web3/DeFi/README.md)
+  - [Introduction to DeFi](web3/DeFi/introduction-to-defi/README.md)
+    - [Benefits of DeFi](web3/DeFi/introduction-to-defi/benefits-of-defi.md)
+    - [Risks of DeFi](web3/DeFi/introduction-to-defi/risks-of-defi.md)
+  - [Basic concepts of Defi](web3/DeFi/basic-concepts-of-defi/README.md)
+    - [stablecoin](web3/DeFi/basic-concepts-of-defi/stablecoin.md)
+    - [loan](web3/DeFi/basic-concepts-of-defi/loan.md)
+    - [staking](web3/DeFi/basic-concepts-of-defi/staking.md)
+    - [Bridge](web3/DeFi/basic-concepts-of-defi/bridge.md)
+    - [Derivative](web3/DeFi/basic-concepts-of-defi/derivative.md)
+  - [Popular deFi protocols](web3/DeFi/popular-deFi-protocols/README.md)
+    - [aave](web3/DeFi/popular-deFi-protocols/aave.md)
+    - [curve](web3/DeFi/popular-deFi-protocols/curve.md)
+    - [uniswap](web3/DeFi/popular-deFi-protocols/uniswap.md)
+    - [yearn.finance](web3/DeFi/popular-deFi-protocols/yearn.finance.md)
 - [NFT](web3/NFT.md)
 
 ## Ethereum

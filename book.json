@@ -1,5 +1,5 @@
 {
-  "plugins": ["disqus"],
+  "plugins": ["disqus", "chapter-fold"],
   "pluginsConfig": {
     "disqus": {
       "shortName": "57blocks-web3-knowledge-base"

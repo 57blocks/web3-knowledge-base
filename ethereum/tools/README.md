@@ -10,33 +10,24 @@ The tool catalog introduces some libraries and platforms, deployment tools and b
 
 - [EtherScan](./etherScan.md)
 
-### Libraries
+### Library
 
 - [Ethers.js](./ethers.md)
 
-### Development and Operating Platforms
+### Node Service
 
 - [Alchemy](./alchemy.md)
 
-### Development Tools
+### Development Framework
 
 - [Hardhat](./hardHat.md)
 
-### Data Collection Tools
+### Data Collection
 
 - [The-graph](./the-graph.md)
 
-### Backend Management Tools
+### Bot(Autotask) Service
 
 - [ChainLink-Automation](./chainlink-automation.md)
- 
+
 - [Openzeppelin-Defender](./openzeppelin-defender.md)
-
-
-
-## Combined Practice
-
-[How to Set Up Core Web3 Developer Tools](https://docs.alchemy.com/docs/how-to-set-up-core-web3-developer-tools)
-
-[Hello World Smart Contract](https://docs.alchemy.com/docs/hello-world-smart-contract)
-

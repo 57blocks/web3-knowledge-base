@@ -52,8 +52,8 @@
   - [Transaction](ethereum/concepts/transaction.md)
   - [Event](ethereum/concepts/event.md)
   - [Gas](ethereum/concepts/gas.md)
+- [Tutorials](ethereum/tutorials.md)
 - [Tools](ethereum/tools/README.md)
-
   - [The Graph](ethereum/tools/the-graph.md)
   - [Ethers.js](ethereum/tools/ethers.md)
   - [EtherScan](ethereum/tools/etherScan.md)
@@ -64,17 +64,12 @@
 
 ## Smart Contract
 
-- [Solidity](smart-contract/solidity.md)
-- [Patterns & Best Practices](smart-contract/patterns-&-best-practices.md)
-- [Test & Deployment](smart-contract/test-&-deployment.md)
-- [EVM](smart-contract/EVM.md)
+- [Introduction](smart-contract/README.md)
+- [Solidity](smart-contract/solidity/README.md)
+  - [Language Description](smart-contract/solidity/language-description.md)
+  - [Advanced Topics](smart-contract/solidity/advanced-topics.md)
 
 ## Middle Layer
-
-- [Private Key Management](middle-layer/private-key-management.md)
-- [Event Listener](middle-layer/event-listener.md)
-- [Bot](middle-layer/bot.md)
-- [Testing](middle-layer/testing.md)
 
 ## DApp
 

@@ -4,15 +4,13 @@
 
 [Etherscan](https://etherscan.io/) is a block explorer for the Ethereum blockchain. You can use this free tool to view any past transaction, wallet, smart contract, NFT, and anything else you may want to view in the history of Ethereum. It allows users to easily search and browse transactions and blocks. It also provides information about each transaction and block, such as the hash and timestamp.
 
-It’s also Analytics Platform for Ethereum, a decentralized smart contracts platform. 
-
+It’s also Analytics Platform for Ethereum, a decentralized smart contracts platform.
 
 ## What can we do on Etherscan?
 
 ### Wallet Tracking
 
-Using the address tracking features, you can view all past transactions for a specific  wallet and its current holdings using the address tracking features.
-
+Using the address tracking features, you can view all past transactions for a specific wallet and its current holdings using the address tracking features.
 
 ### Transaction Viewing
 
@@ -20,7 +18,7 @@ Etherscan will show you the details of that transaction, including the current s
 
 ### Block Viewing
 
-Etherscan will show you the details of that block, including the status, the number of transactions, slot, epoch, gas used, block reward and the timestamp and so on 
+Etherscan will show you the details of that block, including the status, the number of transactions, slot, epoch, gas used, block reward and the timestamp and so on
 
 ### Smart Contract Tracking
 
@@ -52,7 +50,7 @@ EtherScan API Endpoints including the following categories:
 - [Stats](https://docs.etherscan.io/api-endpoints/stats-1)
 - [Geth/Parity Proxy](https://docs.etherscan.io/api-endpoints/geth-parity-proxy)
 
-## Recommended Reading
+## References
 
 Principle and function introduction:
 

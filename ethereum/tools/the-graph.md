@@ -2,7 +2,7 @@
 
 *lily@57blocks.com*
 
-[The Graph](https://thegraph.com/en/) is an open-sourced software used to collect, process and store data from various blockchain applications to facilitate information retrieval. It supports Ethereum blockchain, EVM-compatible chains and Layer 2 chains. Currently, The Graph supports 31 blockchain networks including Fantom, Cosmos and Arbitrum. 
+[The Graph](https://thegraph.com/en/) is an open-sourced software used to collect, process and store data from various blockchain applications to facilitate information retrieval. It supports Ethereum blockchain, EVM-compatible chains and Layer 2 chains. Currently, The Graph supports 31 blockchain networks including Fantom, Cosmos and Arbitrum.
 
 [More](https://thegraph.com/docs/en/about/)
 
@@ -77,7 +77,7 @@ The Graph Network supports only the Ethereum blockchain. All other blockchains, 
 
 [More](https://thegraph.com/docs/en/deploying/hosted-service/)
 
-## Recommended Reading
+## References
 
 [What is the Graph?](https://shardeum.org/blog/what-is-the-graph/)
 

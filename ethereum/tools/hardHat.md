@@ -52,18 +52,16 @@ Hardhat Runner is designed around the concepts of tasks and plugins. Every time 
 
 ### Hardhat Chai Matchers
 
- [Hardhat Chai Matchers](https://hardhat.org/hardhat-chai-matchers/docs/overview) adds Ethereum-specific capabilities to the Chai assertion library, making your smart contract tests easy to write and read.
+[Hardhat Chai Matchers](https://hardhat.org/hardhat-chai-matchers/docs/overview) adds Ethereum-specific capabilities to the Chai assertion library, making your smart contract tests easy to write and read.
 
 ### Hardhat Network Helpers
 
- [Hardhat Network Helpers](https://hardhat.org/hardhat-network-helpers/docs/overview) provides a convenient JavaScript interface to the JSON-RPC functionality of Hardhat Network.
+[Hardhat Network Helpers](https://hardhat.org/hardhat-network-helpers/docs/overview) provides a convenient JavaScript interface to the JSON-RPC functionality of Hardhat Network.
 
-## Recommended Reading
+## References
 
 [Hardhat Explained – What is Hardhat?](https://moralis.io/hardhat-explained-what-is-hardhat/)
 
 [What Is Hardhat – A Comprehensive Guide](https://101blockchains.com/hardhat-tutorial/)
 
-
 Hardhat helps developers in testing, compiling, deploying, and debugging dApps on the Ethereum blockchain. It serves a crucial role in supporting coders and developers with the management of tasks, which are important for smart contract and dApp development. You can try it follow the [official tutorial](https://hardhat.org/tutorial).
-

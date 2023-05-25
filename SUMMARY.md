@@ -68,6 +68,7 @@
 - [Solidity](smart-contract/solidity/README.md)
   - [Language Description](smart-contract/solidity/language-description.md)
   - [Advanced Topics](smart-contract/solidity/advanced-topics.md)
+  - [Resources](smart-contract/solidity/resources.md)
 
 ## Middle Layer
 

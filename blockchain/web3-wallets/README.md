@@ -14,3 +14,7 @@ This document describes the implementation technologies of web3 wallet, which wi
 
 The most popular ETH wallet at present.
 
+## [Wallet App Architecture](./wallet-app-architecture.md)
+
+The general wallet app architecture
+

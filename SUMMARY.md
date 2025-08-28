@@ -12,6 +12,7 @@
   - [Types Of Web3 Wallets](blockchain/web3-wallets/types-of-web3-wallets.md)
   - [Wallet Technologies](blockchain/web3-wallets/wallet-technologies.md)
   - [MetaMask Wallet](blockchain/web3-wallets/metamask-wallet.md)
+  - [Wallet App Architecture](blockchain/web3-wallets/wallet-app-architecture.md)
 - [Transaction](blockchain/transaction/README.md)
   - [UTXO Model](blockchain/transaction/utxo-model.md)
   - [Account Model](blockchain/transaction/account-model.md)

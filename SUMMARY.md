@@ -7,8 +7,7 @@
 
 ## Blockchain
 
-- [Introduction](blockchain/README.md)
-- [Consensus](blockchain/consensus.md)
+- [Beginner](blockchain/beginner/README.md)
 
 ## Ethereum
 
@@ -24,11 +23,11 @@
 
 ## Defi
 
-- [Guide](defi/guide/README.md)
+- [Beginner](defi/guide/README.md)
 
 ## Cross Chain
 
-- [Guide](cross-chain/guide/README.md)
+- [Beginner](cross-chain/guide/README.md)
 
 ## The End
 

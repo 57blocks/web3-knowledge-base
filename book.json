@@ -1,5 +1,5 @@
 {
-  "plugins": ["disqus", "chapter-fold"],
+  "plugins": ["disqus", "chapter-fold", "mermaid-gb3"],
   "pluginsConfig": {
     "disqus": {
       "shortName": "57blocks-web3-knowledge-base"

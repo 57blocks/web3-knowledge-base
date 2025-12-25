@@ -19,8 +19,8 @@ graph TD
 - Stage 1.1: Ethereum — [Beginner](../../ethereum/beginner/README.md)
 - Stage 1.2: Solana — [Beginner](../../solana/beginner/README.md)
 - Stage 1.3: Stellar — [Beginner](../../stellar/beginner/README.md)
-- Stage 2: Defi — [Beginner](../../defi/guide/README.md)
-- Stage 3: Cross Chain — [Beginner](../../cross-chain/guide/README.md)
+- Stage 2: Defi — [Beginner](../../defi/beginner/README.md)
+- Stage 3: Cross Chain — [Beginner](../../cross-chain/beginner/README.md)
 
 ## Recommended Articles
 

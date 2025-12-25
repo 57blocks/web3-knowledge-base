@@ -23,11 +23,11 @@
 
 ## Defi
 
-- [Beginner](defi/guide/README.md)
+- [Beginner](defi/beginner/README.md)
 
 ## Cross Chain
 
-- [Beginner](cross-chain/guide/README.md)
+- [Beginner](cross-chain/beginner/README.md)
 
 ## The End
 

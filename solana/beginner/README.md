@@ -88,6 +88,7 @@ Stage notes:
 ## Recommended Books
 
 - [The Rust Programming Language](https://doc.rust-lang.org/book/) - The Rust fundamentals you’ll need for Solana program development.
+- [Rust Course](https://course.rs/about-book.html) - A detailed open-source guide designed to deepen understanding and proficiency in Rust programming, promoting open-source collaboration.
 
 ## Recommended Videos
 

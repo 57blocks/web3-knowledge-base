@@ -9,17 +9,14 @@
 
 - [Beginner](blockchain/beginner/README.md)
 
-## Ethereum
+## Chains
 
-- [Beginner](ethereum/beginner/README.md)
-
-## Solana
-
-- [Beginner](solana/beginner/README.md)
-
-## Stellar
-
-- [Beginner](stellar/beginner/README.md)
+- [Ethereum](chains/ethereum/README.md)
+  - [Beginner](chains/ethereum/beginner/README.md)
+- [Solana](chains/solana/README.md)
+  - [Beginner](chains/solana/beginner/README.md)
+- [Stellar](chains/stellar/README.md)
+  - [Beginner](chains/stellar/beginner/README.md)
 
 ## Defi
 

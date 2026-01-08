@@ -16,9 +16,9 @@ graph TD
 ```
 
 - Stage 0: Start here (Blockchain foundations) — use the resources on this page.
-- Stage 1.1: Ethereum — [Beginner](../../ethereum/beginner/README.md)
-- Stage 1.2: Solana — [Beginner](../../solana/beginner/README.md)
-- Stage 1.3: Stellar — [Beginner](../../stellar/beginner/README.md)
+- Stage 1.1: Ethereum — [Beginner](../../chains/ethereum/beginner/README.md)
+- Stage 1.2: Solana — [Beginner](../../chains/solana/beginner/README.md)
+- Stage 1.3: Stellar — [Beginner](../../chains/stellar/beginner/README.md)
 - Stage 2: Defi — [Beginner](../../defi/beginner/README.md)
 - Stage 3: Cross Chain — [Beginner](../../cross-chain/beginner/README.md)
 

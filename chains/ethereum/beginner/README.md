@@ -83,14 +83,11 @@ Stage notes:
 
 ### Frontend
 
-| Site                                                                                                           | Notes                                           |
-| -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
-| [MetaMask](https://docs.metamask.io/sdk/guides/use-deeplinks)                                                  | Deeplink guide for wallet connection flows.     |
-| [Binance](https://developers.binance.com/docs/binance-w3w/evm-compatible-provider#getdeeplink)                 | Deeplink API for Binance Web3 Wallet.           |
-| [OKX](https://web3.okx.com/zh-hans/build/docs/waas/app-universal-link)                                         | Universal link guide for OKX wallet connection. |
-| [Backpack](https://docs.backpack.app/)                                                                         | Wallet docs and integration overview.           |
-| [Phantom](https://docs.phantom.com/phantom-deeplinks/deeplinks-ios-and-android)                                 | Deeplinks for mobile wallet connection.         |
-| [Solflare](https://docs.solflare.com/solflare/technical/deeplinks)                                             | Deeplink reference for wallet integration.      |
+| Site                                                                                           | Notes                                           |
+| ---------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| [MetaMask](https://docs.metamask.io/sdk/guides/use-deeplinks)                                  | Deeplink guide for wallet connection flows.     |
+| [Binance](https://developers.binance.com/docs/binance-w3w/evm-compatible-provider#getdeeplink) | Deeplink API for Binance Web3 Wallet.           |
+| [OKX](https://web3.okx.com/zh-hans/build/docs/waas/app-universal-link)                         | Universal link guide for OKX wallet connection. |
 
 ### Backend
 

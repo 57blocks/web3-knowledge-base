@@ -102,8 +102,9 @@ Stage notes:
 | Site                                                                   | Notes                                               |
 | ---------------------------------------------------------------------- | --------------------------------------------------- |
 | [Solana Wallet Adapter](https://github.com/solana-labs/wallet-adapter) | Standard wallet connection libraries for web dApps. |
-| [Phantom Docs](https://docs.phantom.app/)                              | Wallet integration and UX patterns.                 |
-| [Solflare Docs](https://docs.solflare.com/)                            | Wallet integration references.                      |
+| [Phantom](https://docs.phantom.app/)                              | Wallet integration and UX patterns.                 |
+| [Backpack](https://docs.backpack.app/)                                 | Wallet docs and integration overview.               |
+| [Solflare](https://docs.solflare.com/)                            | Wallet integration references.                      |
 
 ### Backend
 

@@ -2,6 +2,8 @@
 
 This guide is the beginner entry point for Solana. It focuses on fundamentals, basic tooling, and a first simple dApp. Deeper topics belong in Intermediate and Advanced.
 
+> Legend: ★ marks the most recommended resources.
+
 ## Learning Path
 
 ```mermaid
@@ -33,6 +35,44 @@ Stage notes:
 - Stage 3: Rust + Anchor basics, account constraints, PDA, CPI (high-level), local testing workflow.
 - Stage 4: `@solana/web3.js`, wallet adapter, reading data + sending transactions, explorer usage.
 
+## Recommended Articles
+
+- Overview:
+  - [★Solana Docs](https://docs.solana.com/) - Official documentation entry point.
+  - [Solana Cookbook](https://solanacookbook.com/) - Practical recipes for common tasks (CLI, accounts, transactions, tokens).
+- Core concepts:
+  - Accounts & Programs:
+    - [★Accounts](https://solana.com/docs/core/accounts) - The core data model on Solana.
+    - [★Programs](https://solana.com/docs/core/programs) - What programs are and how they execute.
+  - Transactions & Instructions:
+    - [★Transactions](https://solana.com/docs/core/transactions) - Transaction structure and signing model.
+  - SPL Token:
+    - [SPL Token](https://spl.solana.com/token) - Token standard and program overview.
+    - [Associated Token Account](https://spl.solana.com/associated-token-account) - The standard token account pattern.
+  - Program patterns:
+    - [★Program Derived Address (PDA)](https://solana.com/docs/core/pda) - Deterministic addresses for programs.
+    - [Cross-Program Invocation (CPI)](https://solana.com/docs/core/cpi) - Calling other programs (high-level).
+
+## Recommended Courses
+
+- [★Solana Foundation Developer Courses](https://github.com/solana-foundation/developer-content/tree/main/content/courses) - Curated course content from the Solana Foundation.
+- [freeCodeCamp Solana](https://web3.freecodecamp.org/solana) - Hands-on Solana learning path with beginner-friendly explanations.
+
+## Recommended Exercises
+
+- [★web3-onboarding](https://github.com/shan57blocks/web3-onboarding) - Guided onboarding exercises and tasks (practice-driven).
+- [★vet-57b](https://github.com/57blocks/web3-hub/tree/main/exercises/vet-57b) - Build a Solana vet clinic management program, assess core dev skills and explore off-chain data acquisition & presentation.
+
+## Recommended Books
+
+- [★The Rust Programming Language](https://doc.rust-lang.org/book/) - The Rust fundamentals you’ll need for Solana program development.
+- [Rust Course](https://course.rs/about-book.html) - A detailed open-source guide designed to deepen understanding and proficiency in Rust programming, promoting open-source collaboration.
+
+## Recommended Videos
+
+- [Solana Development Tutorial](https://www.youtube.com/playlist?list=PLmAMfj0qP2wwfnuRJQge2ss4sJxnhIqyt) - Solana developer videos and walkthroughs.
+- [Solana Developer Bootcamp](https://www.youtube.com/playlist?list=PLilwLeBwGuK7HN8ZnXpGAD9q6i4syhnVc) - Solana developer bootcamp videos (often Anchor-focused).
+
 ## Developer Tooling
 
 - CLI:
@@ -57,44 +97,6 @@ Stage notes:
   - [Solscan](https://solscan.io/) - Explorer with rich token/account views and convenient dashboards.
   - [SolanaFM](https://solana.fm/) - Explorer with strong UX for program and transaction inspection.
 
-## Recommended Articles
-
-- Overview:
-  - [Solana Docs](https://docs.solana.com/) - Official documentation entry point.
-  - [Solana Cookbook](https://solanacookbook.com/) - Practical recipes for common tasks (CLI, accounts, transactions, tokens).
-- Core concepts:
-  - Accounts & Programs:
-    - [Accounts](https://solana.com/docs/core/accounts) - The core data model on Solana.
-    - [Programs](https://solana.com/docs/core/programs) - What programs are and how they execute.
-  - Transactions & Instructions:
-    - [Transactions](https://solana.com/docs/core/transactions) - Transaction structure and signing model.
-  - SPL Token:
-    - [SPL Token](https://spl.solana.com/token) - Token standard and program overview.
-    - [Associated Token Account](https://spl.solana.com/associated-token-account) - The standard token account pattern.
-  - Program patterns:
-    - [Program Derived Address (PDA)](https://solana.com/docs/core/pda) - Deterministic addresses for programs.
-    - [Cross-Program Invocation (CPI)](https://solana.com/docs/core/cpi) - Calling other programs (high-level).
-
-## Recommended Courses
-
-- [freeCodeCamp Solana](https://web3.freecodecamp.org/solana) - Hands-on Solana learning path with beginner-friendly explanations.
-- [Solana Foundation Developer Courses](https://github.com/solana-foundation/developer-content/tree/main/content/courses) - Curated course content from the Solana Foundation.
-
-## Recommended Exercises
-
-- [web3-onboarding](https://github.com/shan57blocks/web3-onboarding) - Guided onboarding exercises and tasks (practice-driven).
-- [60 Days of Solana](https://rareskills.io/solana-tutorial) - Practical Solana program development exercises and walkthroughs.
-
-## Recommended Books
-
-- [The Rust Programming Language](https://doc.rust-lang.org/book/) - The Rust fundamentals you’ll need for Solana program development.
-- [Rust Course](https://course.rs/about-book.html) - A detailed open-source guide designed to deepen understanding and proficiency in Rust programming, promoting open-source collaboration.
-
-## Recommended Videos
-
-- [Solana Development Tutorial](https://www.youtube.com/playlist?list=PLmAMfj0qP2wwfnuRJQge2ss4sJxnhIqyt) - Solana developer videos and walkthroughs.
-- [Solana Developer Bootcamp](https://www.youtube.com/playlist?list=PLilwLeBwGuK7HN8ZnXpGAD9q6i4syhnVc) - Solana developer bootcamp videos (often Anchor-focused).
-
 ## Common Websites
 
 ### Frontend
@@ -102,9 +104,9 @@ Stage notes:
 | Site                                                                   | Notes                                               |
 | ---------------------------------------------------------------------- | --------------------------------------------------- |
 | [Solana Wallet Adapter](https://github.com/solana-labs/wallet-adapter) | Standard wallet connection libraries for web dApps. |
-| [Phantom](https://docs.phantom.app/)                              | Wallet integration and UX patterns.                 |
+| [Phantom](https://docs.phantom.app/)                                   | Wallet integration and UX patterns.                 |
 | [Backpack](https://docs.backpack.app/)                                 | Wallet docs and integration overview.               |
-| [Solflare](https://docs.solflare.com/)                            | Wallet integration references.                      |
+| [Solflare](https://docs.solflare.com/)                                 | Wallet integration references.                      |
 
 ### Backend
 

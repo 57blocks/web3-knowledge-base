@@ -2,6 +2,8 @@
 
 This guide is the beginner entry point for DeFi. It focuses on mental models, core primitives (Stablecoin, AMM/DEX, Lending), and security hygiene. Deeper topics (MEV, perps/options, structured products, cross-chain design) belong in Intermediate and Advanced.
 
+> Legend: ★ marks the most recommended resources.
+
 ## Learning Path
 
 ```mermaid
@@ -49,24 +51,21 @@ Category notes:
 
 ## Recommended Articles
 
-- [DeFi](https://ethereum.org/defi/) - Beginner-friendly overview of DeFi, common primitives, and risks.
-- [A Formal Approach to Composable DeFi Protocols](https://arxiv.org/pdf/2103.00540) - A formal, compositional modeling approach (process algebra) for DeFi protocols, enabling efficient verification of protocol properties.
-- [DeFi: Challenges and Prospects](https://arxiv.org/pdf/2101.05589) - A solid early survey of DeFi, covering core concepts, key challenges, and research directions.
-- [Theory of Automated Market Makers in DeFi](https://arxiv.org/pdf/2102.11350) - A theoretical treatment of AMMs that proves fundamental properties and characterizes their structural and economic behavior.
+- [★DeFi](https://ethereum.org/defi/) - Beginner-friendly overview of DeFi, common primitives, and risks.
 
 ## Recommended Courses
 
-- [LearnWeb3: Stacks Developer Degree](https://learnweb3.io/degrees/stacks-developer-degree/) - A structured, hands-on curriculum for learning Web3 development on Stacks (Bitcoin L2), including smart contracts and building real projects.
+- [★LearnWeb3: Stacks Developer Degree](https://learnweb3.io/degrees/stacks-developer-degree/) - A structured, hands-on curriculum for learning Web3 development on Stacks (Bitcoin L2), including smart contracts and building real projects.
 - [DeFi Learning (F22)](https://defi-learning.org/f22) - A course-style collection of DeFi topics and readings focused on protocol design, mechanics, and risk trade-offs.
 
 ## Recommended Books
 
-- [DeFi and the Future of Finance](https://www.dedao.cn/ebook/detail?id=kQX7yD4MVoN52PDAnlRdzK6qvg8XEwbmvo3ZJjBb7rO4ypxGa9LeQm1kYng9YzK5) - A overview of DeFi fundamentals, market structure, and how DeFi may reshape traditional finance.
+- [★DeFi and the Future of Finance](https://www.dedao.cn/ebook/detail?id=kQX7yD4MVoN52PDAnlRdzK6qvg8XEwbmvo3ZJjBb7rO4ypxGa9LeQm1kYng9YzK5) - A overview of DeFi fundamentals, market structure, and how DeFi may reshape traditional finance.
 - [How to DeFi Advanced](https://www.are.na/block/12525791) - An advanced DeFi guide covering more complex primitives, strategies, and risk considerations.
 
 ## Recommended Videos
 
-- [Finematics](https://www.youtube.com/c/finematics): An education-focused channel that explains DeFi concepts (AMMs, liquidity pools, lending, and smart contract mechanics) with clear, structured breakdowns.
+- [★Finematics](https://www.youtube.com/c/finematics): An education-focused channel that explains DeFi concepts (AMMs, liquidity pools, lending, and smart contract mechanics) with clear, structured breakdowns.
 - [Whiteboard Crypto](https://www.youtube.com/@WhiteboardCrypto): A whiteboard-style education channel that uses analogies and simple visuals to make crypto, blockchain, and DeFi topics easy to understand.
 
 ## Notable Protocols

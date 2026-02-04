@@ -2,6 +2,8 @@
 
 This guide is the beginner entry point for Stellar. It focuses on fundamentals, basic tooling, and a first simple dApp. Deeper topics belong in Intermediate and Advanced.
 
+> Legend: ★ marks the most recommended resources.
+
 ## Learning Path
 
 ```mermaid

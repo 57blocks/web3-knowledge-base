@@ -2,6 +2,8 @@
 
 This guide is the beginner entry point for Ethereum. It focuses on fundamentals, basic tooling, and a first simple dApp. Deeper topics belong in Intermediate and Advanced.
 
+> Legend: ★ marks the most recommended resources.
+
 ## Learning Path
 
 ```mermaid
@@ -31,6 +33,38 @@ Stage notes:
 - Stage 3: Solidity syntax and types, Storage vs Memory, ABI, Deploy to testnet.
 - Stage 4: Hardhat or Foundry basics, ethers.js basics, simple dApp read/write flow.
 
+## Recommended Articles
+
+- Overview:
+  - [★What is Ethereum?](https://ethereum.org/what-is-ethereum/) (Stage 1) - High-level overview of Ethereum’s purpose, features, and ecosystem.
+- Core concepts:
+  - [★Accounts](https://ethereum.org/en/developers/docs/accounts/) (Stage 2) - How accounts work, including EOAs and contract accounts.
+  - [★Transactions](https://ethereum.org/en/developers/docs/transactions/) (Stage 2) - Transaction lifecycle, fields, and how state changes.
+  - [★EVM](https://ethereum.org/en/developers/docs/evm) (Stage 2) - What the EVM is and how it executes smart contract code.
+  - [Gas](https://ethereum.org/en/developers/docs/gas/) (Stage 2) - Gas pricing, limits, and how fees are calculated.
+  - [Nodes & Clients](https://ethereum.org/en/developers/docs/nodes-and-clients/) (Stage 2) - Client types and how nodes participate in the network.
+  - [Networks](https://ethereum.org/en/developers/docs/networks/) (Stage 2) - Mainnet vs testnets and how to choose a network.
+  - [Consensus algorithms](https://ethereum.org/en/developers/docs/consensus-mechanisms/) (Stage 1-2) - How Ethereum reaches agreement on blocks.
+
+## Recommended Courses
+
+- [★WTF Solidity](https://github.com/AmazingAng/WTF-Solidity) (Stage 3-4) - Bite-sized Solidity lessons with code-first examples.
+- [Full Blockchain Solidity Course (Python Edition)](https://github.com/smartcontractkit/full-blockchain-solidity-course-py) (Stage 3-4) - Comprehensive Solidity course with Python tooling and hands-on projects.
+
+## Recommended Exercises
+
+- [★CryptoZombies](https://cryptozombies.io/) (Stage 3) - Interactive Solidity exercises through a gamified tutorial.
+- [Truffle Suite Tutorial](https://www.trufflesuite.com/tutorial) (Stage 3-4) - Step-by-step guide to build and test a simple dApp.
+
+## Recommended Books
+
+- [★Mastering Ethereum](https://masteringethereum.xyz/) (Stage 3-4) - Definitive guide to Ethereum and smart contract development.
+- [Solidity Programming Essentials (2nd Edition)](https://github.com/PacktPublishing/Solidity-Programming-Essentials-Second-Edition) (Stage 3-4) - Practical Solidity book with example code.
+
+## Recommended Videos
+
+- [Solidity & Ethereum Bootcamp Playlist](https://www.youtube.com/playlist?list=PL16WqdAj66SCOdL6XIFbke-XQg2GW_Avg) (Stage 2-4) - Long-form playlist covering Solidity and Ethereum basics.
+
 ## Developer Tooling
 
 - Frameworks:
@@ -46,38 +80,6 @@ Stage notes:
   - [QuickNode](https://www.quicknode.com/) (Stage 3-4) - Hosted RPC endpoints and developer tools.
 - Explorers:
   - [Etherscan](https://etherscan.io/) (Stage 2-4) - Explore transactions, contracts, and verification status.
-
-## Recommended Articles
-
-- Overview:
-  - [What is Ethereum?](https://ethereum.org/what-is-ethereum/) (Stage 1) - High-level overview of Ethereum’s purpose, features, and ecosystem.
-- Core concepts:
-  - [Accounts](https://ethereum.org/en/developers/docs/accounts/) (Stage 2) - How accounts work, including EOAs and contract accounts.
-  - [Transactions](https://ethereum.org/en/developers/docs/transactions/) (Stage 2) - Transaction lifecycle, fields, and how state changes.
-  - [EVM](https://ethereum.org/en/developers/docs/evm) (Stage 2) - What the EVM is and how it executes smart contract code.
-  - [Gas](https://ethereum.org/en/developers/docs/gas/) (Stage 2) - Gas pricing, limits, and how fees are calculated.
-  - [Nodes & Clients](https://ethereum.org/en/developers/docs/nodes-and-clients/) (Stage 2) - Client types and how nodes participate in the network.
-  - [Networks](https://ethereum.org/en/developers/docs/networks/) (Stage 2) - Mainnet vs testnets and how to choose a network.
-  - [Consensus algorithms](https://ethereum.org/en/developers/docs/consensus-mechanisms/) (Stage 1-2) - How Ethereum reaches agreement on blocks.
-
-## Recommended Courses
-
-- [WTF Solidity](https://github.com/AmazingAng/WTF-Solidity) (Stage 3-4) - Bite-sized Solidity lessons with code-first examples.
-- [Full Blockchain Solidity Course (Python Edition)](https://github.com/smartcontractkit/full-blockchain-solidity-course-py) (Stage 3-4) - Comprehensive Solidity course with Python tooling and hands-on projects.
-
-## Recommended Exercises
-
-- [CryptoZombies](https://cryptozombies.io/) (Stage 3) - Interactive Solidity exercises through a gamified tutorial.
-- [Truffle Suite Tutorial](https://www.trufflesuite.com/tutorial) (Stage 3-4) - Step-by-step guide to build and test a simple dApp.
-
-## Recommended Books
-
-- [Mastering Ethereum](https://masteringethereum.xyz/) (Stage 3-4) - Definitive guide to Ethereum and smart contract development.
-- [Solidity Programming Essentials (2nd Edition)](https://github.com/PacktPublishing/Solidity-Programming-Essentials-Second-Edition) (Stage 3-4) - Practical Solidity book with example code.
-
-## Recommended Videos
-
-- [Solidity & Ethereum Bootcamp Playlist](https://www.youtube.com/playlist?list=PL16WqdAj66SCOdL6XIFbke-XQg2GW_Avg) (Stage 2-4) - Long-form playlist covering Solidity and Ethereum basics.
 
 ## Common Websites
 

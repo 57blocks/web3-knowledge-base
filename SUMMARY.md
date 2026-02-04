@@ -3,7 +3,6 @@
 ## Getting Started
 
 - [Welcome](README.md)
-- [Offline Support](welcome/offline-support.md)
 
 ## Blockchain
 

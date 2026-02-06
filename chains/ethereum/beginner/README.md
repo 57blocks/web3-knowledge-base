@@ -33,6 +33,18 @@ Stage notes:
 - Stage 3: Solidity syntax and types, Storage vs Memory, ABI, Deploy to testnet.
 - Stage 4: Hardhat or Foundry basics, ethers.js basics, simple dApp read/write flow.
 
+## Minimal Must-Learn Path
+
+Recommended MVP duration: 1-2 weeks.
+If a resource is long, complete only the required part listed in each step.
+
+1. Articles (Day 1-2): read [What is Ethereum?](https://ethereum.org/what-is-ethereum/), [Accounts](https://ethereum.org/en/developers/docs/accounts/), [Transactions](https://ethereum.org/en/developers/docs/transactions/), [Gas](https://ethereum.org/en/developers/docs/gas/), and [EVM](https://ethereum.org/en/developers/docs/evm). Required outcome: explain Account, Transaction, Gas, and Event in your own words.
+2. Course (Day 3-5): use [WTF Solidity](https://github.com/AmazingAng/WTF-Solidity). Required part: only beginner topics (syntax, types, functions, storage/memory, mappings, events, errors). Optional: continue advanced lessons later.
+3. Exercises (Day 6-8): complete [CryptoZombies](https://cryptozombies.io/) Lessons 1-3. Optional: do [Truffle Suite Tutorial](https://www.trufflesuite.com/tutorial) after finishing the MVP.
+4. Book (Day 9-10): read selected parts of [Mastering Ethereum](https://masteringethereum.xyz/). Required part: introductory chapters about accounts/keys, transactions/gas, and smart contract basics. Optional: read the full book later.
+5. Video (Day 11-12): watch the first 4 videos from [Solidity & Ethereum Bootcamp Playlist](https://www.youtube.com/playlist?list=PL16WqdAj66SCOdL6XIFbke-XQg2GW_Avg). Required outcome: understand the end-to-end flow from wallet -> contract -> dApp.
+6. MVP completion (End of Week 2): deploy one simple contract to a testnet, verify it on [Etherscan](https://etherscan.io/), use [ethers.js Docs](https://docs.ethers.org/) to read/write state, and finish a minimal dApp flow (connect wallet + read + write).
+
 ## Recommended Articles
 
 - Overview:

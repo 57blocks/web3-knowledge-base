@@ -35,6 +35,18 @@ Stage notes:
 - Stage 3: Rust + Anchor basics, account constraints, PDA, CPI (high-level), local testing workflow.
 - Stage 4: `@solana/web3.js`, wallet adapter, reading data + sending transactions, explorer usage.
 
+## Minimal Must-Learn Path
+
+Recommended MVP duration: 1-2 weeks.
+If a resource is long, complete only the required part listed in each step.
+
+1. Articles (Day 1-2): read [Solana Docs](https://docs.solana.com/), [Accounts](https://solana.com/docs/core/accounts), [Programs](https://solana.com/docs/core/programs), [Transactions](https://solana.com/docs/core/transactions), [SPL Token](https://spl.solana.com/token), and [Associated Token Account](https://spl.solana.com/associated-token-account). Required outcome: explain Account, Instruction, Transaction, Blockhash, Fee, and Compute Units.
+2. Course (Day 3-5): use [Solana Foundation Developer Courses](https://github.com/solana-foundation/developer-content/tree/main/content/courses). Required part: only beginner modules covering wallet, account model, and transaction basics. Optional: deeper modules after MVP.
+3. Exercises (Day 6-8): complete the beginner/core tasks in [web3-onboarding](https://github.com/shan57blocks/web3-onboarding) (keypair, airdrop, transfer, token mint/ATA). Optional: [vet-57b](https://github.com/57blocks/web3-hub/tree/main/exercises/vet-57b) after MVP.
+4. Book (Day 9-10): read selected parts of [The Rust Programming Language](https://doc.rust-lang.org/book/). Required part: ownership/borrowing, structs/enums, and error handling basics. Optional: read the full book later.
+5. Video (Day 11-12): watch the first 4 videos from [Solana Development Tutorial](https://www.youtube.com/playlist?list=PLmAMfj0qP2wwfnuRJQge2ss4sJxnhIqyt). Required outcome: understand client tx flow and basic program interaction.
+6. MVP completion (End of Week 2): send one devnet transaction, create one SPL token + ATA, deploy one simple Anchor program, verify tx in [Solana Explorer](https://explorer.solana.com/), and finish a minimal dApp flow (connect wallet + sign + send).
+
 ## Recommended Articles
 
 - Overview:

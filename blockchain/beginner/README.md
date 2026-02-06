@@ -17,6 +17,14 @@ graph TD
   C --> D["Stage 3: Cross Chain"]
 ```
 
+Milestones:
+
+- Complete wallet backup and anti-phishing checks on a test wallet.
+- Complete one testnet transaction and explain fee fields in your own words.
+- Verify the same transaction in an explorer and explain the final status.
+
+Stage notes:
+
 - Stage 0: Start here (Blockchain foundations) — use the resources on this page.
 - Stage 1.1: Ethereum — [Beginner](../../chains/ethereum/beginner/README.md)
 - Stage 1.2: Solana — [Beginner](../../chains/solana/beginner/README.md)
@@ -26,11 +34,9 @@ graph TD
 
 ## Recommended Articles
 
-- Overview
-  - [★What is Web3? ](https://ethereum.org/web3/) - High-level overview of Web3: user ownership, decentralization, and common applications.
-- Blockchain Basics
-  - [★Why is blockchain important?](https://www.simplilearn.com/tutorials/blockchain-tutorial/why-is-blockchain-important) - Overview of why blockchains matter, focusing on transparency, security, and efficiency.
-  - [Bitcoin protocol Explained](https://medium.com/coinmonks/bitcoin-white-paper-explained-part-1-4-16cba783146a) - Guided walkthrough of the Bitcoin whitepaper concepts and why they work together.
+- [★What is Web3?](https://ethereum.org/web3/) - High-level overview of Web3.
+- [Why is blockchain important?](https://www.simplilearn.com/tutorials/blockchain-tutorial/why-is-blockchain-important) - Intro to why blockchain matters.
+- [Bitcoin protocol Explained](https://medium.com/coinmonks/bitcoin-white-paper-explained-part-1-4-16cba783146a) - Walkthrough of Bitcoin whitepaper concepts.
 
 ## Recommended Books
 

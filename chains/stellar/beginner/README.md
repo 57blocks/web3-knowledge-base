@@ -36,6 +36,18 @@ Stage notes:
 - Stage 3: Soroban basics, contract storage, auth model, events, deploy/invoke flow (high-level).
 - Stage 4: Stellar CLI and SDK basics, wallet integration, basic dApp read/write flow.
 
+## Minimal Must-Learn Path
+
+Recommended MVP duration: 1-2 weeks.
+If a resource is long, complete only the required part listed in each step.
+
+1. Articles (Day 1-2): read [Stellar Data Structures](https://developers.stellar.org/docs/learn/fundamentals/stellar-data-structures) and [Smart Contract](https://developers.stellar.org/docs/learn/fundamentals/contract-development). Required outcome: explain Account, Asset, Trustline, Operation, and Transaction.
+2. Course (Day 3-5): use [Soroban Online Bootcamp](https://www.risein.com/bootcamps/soroban-online-bootcamp). Required part: complete the beginner modules up to first contract deployment/invocation. Optional: complete the full bootcamp later.
+3. Exercises (Day 6-8): complete one beginner contract from [Example Contracts](https://github.com/stellar/soroban-examples) and the first beginner track in [Soroban Quest](https://quest.stellar.org/soroban). Optional: complete more tracks after MVP.
+4. Book (Day 9-10): read selected parts of [The Rust Programming Language](https://doc.rust-lang.org/book/). Required part: ownership/borrowing, structs/enums, and error handling basics. Optional: read the full book later.
+5. Video (Day 11-12): watch [Soroban Developer Workshop: Write Your First Smart Contract](https://stellar.org/events/soroban-developer-workshop-write-your-first-smart-contract-on-soroban), then pick 2 Soroban-related videos from [Stellar Official YouTube Channel & Meridian Conference Recordings](https://www.youtube.com/@StellarOrg).
+6. MVP completion (End of Week 2): create a testnet account, send one payment tx, create one test asset + trustline, deploy one minimal Soroban contract, and finish a minimal dApp flow (connect wallet + sign + send) using [Freighter](https://www.freighter.app/) and [@stellar/stellar-sdk](https://stellar.github.io/js-stellar-sdk/).
+
 ## Recommended Articles
 
 - [★Stellar Data Structures](https://developers.stellar.org/docs/learn/fundamentals/stellar-data-structures)
@@ -54,7 +66,7 @@ Stage notes:
 
 ## Recommended Books
 
-- [★The Rust Programming Language](https://doc.rust-lang.org/book/) - The Rust fundamentals you’ll need for Solana program development.
+- [★The Rust Programming Language](https://doc.rust-lang.org/book/) - The Rust fundamentals you’ll need for Stellar Soroban contract development.
 
 ## Recommended Videos
 

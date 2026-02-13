@@ -8,4 +8,6 @@ Welcome to the [57blocks Web3 Knowledge Base!](https://we3-knowledge-base.57bloc
 
 This knowledge base aims to serve anyone who is learning Web3 or undergoing Web3 development. For each topic, we try to filter out the most relevant and up-to-date content, using our best judgment.
 
+> Legend: ★ marks the most recommended resources.
+
 Any comment is welcome. Please leave it at the bottom of each page.

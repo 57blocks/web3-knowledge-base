@@ -1,0 +1,118 @@
+# Beginner
+
+This guide is the beginner entry point for Ethereum. It focuses on fundamentals, basic tooling, and a first simple dApp. Deeper topics belong in Intermediate and Advanced.
+
+> Legend: ★ marks the most recommended resources.
+
+## Learning Path
+
+```mermaid
+graph TB
+  A["Stage 0: Prerequisites"]
+  B["Stage 1: Blockchain Foundations"]
+  C["Stage 2: Ethereum Core"]
+  D["Stage 3: Smart Contract Basics"]
+  E["Stage 4: Tooling & Basic dApp"]
+  A --> B
+  B --> C
+  C --> D
+  D --> E
+```
+
+Milestones:
+
+- Explain Account, Transaction, Gas, and Event in your own words.
+- Deploy a simple Contract on a testnet and verify it.
+- Build a minimal dApp that connects a wallet and reads/writes data.
+
+Stage notes:
+
+- Stage 0: JavaScript/TypeScript basics, CLI/Git, HTTP/JSON.
+- Stage 1: Ledger and Consensus basics, Wallets, Keys, Transactions, UTXO vs Account (high-level).
+- Stage 2: Account, Transaction, Gas, Event, State, Block, EVM (concept), JSON-RPC basics, Explorer usage.
+- Stage 3: Solidity syntax and types, Storage vs Memory, ABI, Deploy to testnet.
+- Stage 4: Hardhat or Foundry basics, ethers.js basics, simple dApp read/write flow.
+
+## Minimal Must-Learn Path
+
+Recommended MVP duration: 1-2 weeks.
+If a resource is long, complete only the required part listed in each step.
+
+1. Articles (Day 1-2): read [What is Ethereum?](https://ethereum.org/what-is-ethereum/), [Accounts](https://ethereum.org/en/developers/docs/accounts/), [Transactions](https://ethereum.org/en/developers/docs/transactions/), [Gas](https://ethereum.org/en/developers/docs/gas/), and [EVM](https://ethereum.org/en/developers/docs/evm). Required outcome: explain Account, Transaction, Gas, and Event in your own words.
+2. Course (Day 3-5): use [WTF Solidity](https://github.com/AmazingAng/WTF-Solidity). Required part: only beginner topics (syntax, types, functions, storage/memory, mappings, events, errors). Optional: continue advanced lessons later.
+3. Exercises (Day 6-8): complete [CryptoZombies](https://cryptozombies.io/) Lessons 1-3. Optional: do [Truffle Suite Tutorial](https://www.trufflesuite.com/tutorial) after finishing the MVP.
+4. Book (Day 9-10): read selected parts of [Mastering Ethereum](https://masteringethereum.xyz/). Required part: introductory chapters about accounts/keys, transactions/gas, and smart contract basics. Optional: read the full book later.
+5. Video (Day 11-12): watch the first 4 videos from [Solidity & Ethereum Bootcamp Playlist](https://www.youtube.com/playlist?list=PL16WqdAj66SCOdL6XIFbke-XQg2GW_Avg). Required outcome: understand the end-to-end flow from wallet -> contract -> dApp.
+6. MVP completion (End of Week 2): deploy one simple contract to a testnet, verify it on [Etherscan](https://etherscan.io/), use [ethers.js Docs](https://docs.ethers.org/) to read/write state, and finish a minimal dApp flow (connect wallet + read + write).
+
+## Recommended Articles
+
+- Overview:
+  - [★What is Ethereum?](https://ethereum.org/what-is-ethereum/) - High-level overview of Ethereum’s purpose, features, and ecosystem.
+- Core concepts:
+  - [★Accounts](https://ethereum.org/en/developers/docs/accounts/) - How accounts work, including EOAs and contract accounts.
+  - [★Transactions](https://ethereum.org/en/developers/docs/transactions/) - Transaction lifecycle, fields, and how state changes.
+  - [★EVM](https://ethereum.org/en/developers/docs/evm) - What the EVM is and how it executes smart contract code.
+  - [Gas](https://ethereum.org/en/developers/docs/gas/) - Gas pricing, limits, and how fees are calculated.
+  - [Nodes & Clients](https://ethereum.org/en/developers/docs/nodes-and-clients/) - Client types and how nodes participate in the network.
+  - [Networks](https://ethereum.org/en/developers/docs/networks/) - Mainnet vs testnets and how to choose a network.
+  - [Consensus algorithms](https://ethereum.org/en/developers/docs/consensus-mechanisms/) - How Ethereum reaches agreement on blocks.
+
+## Recommended Courses
+
+- [★WTF Solidity](https://github.com/AmazingAng/WTF-Solidity) - Bite-sized Solidity lessons with code-first examples.
+- [Full Blockchain Solidity Course (Python Edition)](https://github.com/smartcontractkit/full-blockchain-solidity-course-py) - Comprehensive Solidity course with Python tooling and hands-on projects.
+
+## Recommended Exercises
+
+- [★CryptoZombies](https://cryptozombies.io/) - Interactive Solidity exercises through a gamified tutorial.
+- [Truffle Suite Tutorial](https://www.trufflesuite.com/tutorial) - Step-by-step guide to build and test a simple dApp.
+
+## Recommended Books
+
+- [★Mastering Ethereum](https://masteringethereum.xyz/) - Definitive guide to Ethereum and smart contract development.
+- [Solidity Programming Essentials (2nd Edition)](https://github.com/PacktPublishing/Solidity-Programming-Essentials-Second-Edition) - Practical Solidity book with example code.
+
+## Recommended Videos
+
+- [Solidity & Ethereum Bootcamp Playlist](https://www.youtube.com/playlist?list=PL16WqdAj66SCOdL6XIFbke-XQg2GW_Avg) - Long-form playlist covering Solidity and Ethereum basics.
+
+## Developer Tooling
+
+- Frameworks:
+  - [Foundry Book](https://book.getfoundry.sh/) - Fast testing and scripting toolchain for Solidity.
+  - [Hardhat Docs](https://hardhat.org/docs) - Flexible JavaScript-based development environment.
+- Libraries:
+  - [ethers.js Docs](https://docs.ethers.org/) - Lightweight library for interacting with Ethereum.
+  - [web3.js Docs](https://web3js.readthedocs.io/) - Classic library for blockchain RPC interactions.
+- Wallets:
+  - [MetaMask](https://metamask.io/) - Connect to dApps and manage testnet accounts.
+- RPC Providers:
+  - [Alchemy](https://www.alchemy.com/) - Managed RPC endpoints and tooling for developers.
+  - [QuickNode](https://www.quicknode.com/) - Hosted RPC endpoints and developer tools.
+- Explorers:
+  - [Etherscan](https://etherscan.io/) - Explore transactions, contracts, and verification status.
+
+## Common Websites
+
+### Contracts
+
+| Site                                                              | Notes                                     |
+| ----------------------------------------------------------------- | ----------------------------------------- |
+| [Solidity Docs](https://docs.soliditylang.org/)                   | Official language reference and basics.   |
+| [OpenZeppelin Contracts](https://docs.openzeppelin.com/contracts) | Reusable contract libraries and patterns. |
+
+### Frontend
+
+| Site                                                                                           | Notes                                           |
+| ---------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| [MetaMask](https://docs.metamask.io/sdk/guides/use-deeplinks)                                  | Deeplink guide for wallet connection flows.     |
+| [Binance](https://developers.binance.com/docs/binance-w3w/evm-compatible-provider#getdeeplink) | Deeplink API for Binance Web3 Wallet.           |
+| [OKX](https://web3.okx.com/zh-hans/build/docs/waas/app-universal-link)                         | Universal link guide for OKX wallet connection. |
+
+### Backend
+
+| Site                                              | Notes                                    |
+| ------------------------------------------------- | ---------------------------------------- |
+| [Alchemy Docs](https://docs.alchemy.com/)         | RPC provider docs and developer tooling. |
+| [QuickNode Docs](https://www.quicknode.com/docs/) | RPC endpoints and infrastructure guides. |

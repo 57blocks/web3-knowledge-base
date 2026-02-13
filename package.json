@@ -4,10 +4,11 @@
   "license": "MIT",
   "scripts": {
     "copy-files": "rimraf ./node_modules/npm/node_modules/graceful-fs",
-    "serve": "gitbook serve",
+    "patch:mermaid-gb3": "node scripts/patch-mermaid-gb3.js",
+    "serve": "npm run patch:mermaid-gb3 && gitbook serve",
     "plugin": "gitbook install",
-    "build": " gitbook build",
-    "deploy": " npm run plugin && npm run build"
+    "build": "npm run patch:mermaid-gb3 && gitbook build",
+    "deploy": "npm run plugin && npm run build"
   },
   "dependencies": {
     "gitbook-cli": "2.1.2",

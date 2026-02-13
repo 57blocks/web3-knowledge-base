@@ -111,6 +111,12 @@ If a resource is long, complete only the required part listed in each step.
 
 ## Common Websites
 
+### Programs
+
+| Site                                              | Notes                            |
+| ------------------------------------------------- | -------------------------------- |
+| [Solana Program Library](https://spl.solana.com/) | SPL programs (Token, ATA, etc.). |
+
 ### Frontend
 
 | Site                                                                   | Notes                                               |
@@ -126,9 +132,3 @@ If a resource is long, complete only the required part listed in each step.
 | ------------------------------------------------- | ------------------------------------ |
 | [RPC API (JSON RPC)](https://solana.com/docs/rpc) | RPC methods and commitment settings. |
 | [Helius Docs](https://docs.helius.dev/)           | Solana RPC + enhanced APIs.          |
-
-### Programs
-
-| Site                                              | Notes                            |
-| ------------------------------------------------- | -------------------------------- |
-| [Solana Program Library](https://spl.solana.com/) | SPL programs (Token, ATA, etc.). |

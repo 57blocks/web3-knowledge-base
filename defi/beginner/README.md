@@ -49,6 +49,17 @@ Category notes:
 - Liquid Staking: validator & smart contract risk, LST discount/depeg, withdrawal queue (if any).
 - Later (optional): Yield aggregators, derivatives (perps/options), bridges, and MEV mechanics.
 
+## Minimal Must-Learn Path
+
+Recommended MVP duration: 1 week.
+If a resource is long, complete only the required part listed in each step.
+
+1. Article (Day 1): read [★DeFi](https://ethereum.org/defi/). Required outcome: explain Stablecoin, AMM, Lending, and Liquid Staking in your own words.
+2. Video-first intuition (Day 2): watch selected beginner videos from [★Finematics](https://www.youtube.com/c/finematics). Required outcome: understand how swaps, pools, LP fees, and liquidation work conceptually.
+3. Course (Day 3-4): complete beginner-relevant DeFi sections from [★LearnWeb3: Stacks Developer Degree](https://learnweb3.io/degrees/stacks-developer-degree/) and use [DeFi Learning (F22)](https://defi-learning.org/f22) as supplementary reading. Required outcome: map each DeFi primitive to one real protocol use case.
+4. Book (Day 5-6): read selected chapters from [★DeFi and the Future of Finance](https://www.dedao.cn/ebook/detail?id=kQX7yD4MVoN52PDAnlRdzK6qvg8XEwbmvo3ZJjBb7rO4ypxGa9LeQm1kYng9YzK5). Required part: market structure, protocol primitives, and key risks.
+5. Consolidation (Day 7): skim risk-oriented sections in [How to DeFi Advanced](https://www.are.na/block/12525791) and reinforce with 2-3 topic videos from [Whiteboard Crypto](https://www.youtube.com/@WhiteboardCrypto). Required outcome: complete one safe practice flow (swap or lending) and verify approvals + tx details in an explorer.
+
 ## Recommended Articles
 
 - [★DeFi](https://ethereum.org/defi/) - Beginner-friendly overview of DeFi, common primitives, and risks.

@@ -41,7 +41,7 @@ Stage notes:
 Recommended MVP duration: 1-2 weeks.
 If a resource is long, complete only the required part listed in each step.
 
-1. Articles (Day 1-2): read [Stellar Data Structures](https://developers.stellar.org/docs/learn/fundamentals/stellar-data-structures) and [Smart Contract](https://developers.stellar.org/docs/learn/fundamentals/contract-development). Required outcome: explain Account, Asset, Trustline, Operation, and Transaction.
+1. Articles (Day 1-2): read [Stellar Data Structures](https://developers.stellar.org/docs/learn/fundamentals/stellar-data-structures), [Smart Contract](https://developers.stellar.org/docs/learn/fundamentals/contract-development), and skim [What Is Cross-Chain?](https://chain.link/education/cross-chain). Required outcome: explain Account, Asset, Trustline, Operation, and Transaction, and know bridge/aggregator basics at a high level.
 2. Course (Day 3-5): use [Soroban Online Bootcamp](https://www.risein.com/bootcamps/soroban-online-bootcamp). Required part: complete the beginner modules up to first contract deployment/invocation. Optional: complete the full bootcamp later.
 3. Exercises (Day 6-8): complete one beginner contract from [Example Contracts](https://github.com/stellar/soroban-examples) and the first beginner track in [Soroban Quest](https://quest.stellar.org/soroban). Optional: complete more tracks after MVP.
 4. Book (Day 9-10): read selected parts of [The Rust Programming Language](https://doc.rust-lang.org/book/). Required part: ownership/borrowing, structs/enums, and error handling basics. Optional: read the full book later.
@@ -52,7 +52,9 @@ If a resource is long, complete only the required part listed in each step.
 
 - [★Stellar Data Structures](https://developers.stellar.org/docs/learn/fundamentals/stellar-data-structures)
 - [★Smart Contract](https://developers.stellar.org/docs/learn/fundamentals/contract-development)
-- [Building Rust Smart Contracts on Stellar Soroban (James Bachini)](https://jamesbachini.com/building-rust-smart-contracts-on-stellar-soroban/) - Written by a Stellar Developer in Residence; walks through building and deploying a Soroban contract from scratch. Continuously updated in 2025.
+- [What Is Cross-Chain?](https://chain.link/education/cross-chain) - Beginner-friendly intro to cross-chain concepts and why interoperability matters.
+- [What Are Cross-Chain Bridges?](https://www.alchemy.com/overviews/cross-chain-bridges) - Practical overview of bridge types and common tradeoffs.
+- [Building Rust Smart Contracts on Stellar Soroban](https://jamesbachini.com/building-rust-smart-contracts-on-stellar-soroban/) - Written by a Stellar Developer in Residence; walks through building and deploying a Soroban contract from scratch. Continuously updated in 2025.
 
 ## Recommended Courses
 
@@ -88,6 +90,12 @@ If a resource is long, complete only the required part listed in each step.
 
 ## Common Websites
 
+### Contracts
+
+| Site                                                                                                       | Notes                                                  |
+| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| [Smart Contract Fundamentals](https://developers.stellar.org/docs/learn/fundamentals/contract-development) | Core Soroban concepts and contract lifecycle overview. |
+
 ### Frontend
 
 | Site                                                                  | Notes                                                                              |
@@ -101,9 +109,3 @@ If a resource is long, complete only the required part listed in each step.
 | -------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | [Horizon API](https://developers.stellar.org/docs/data/apis/horizon) | REST API for accounts, operations, payments, and transaction history.        |
 | [Stellar RPC API](https://developers.stellar.org/docs/data/apis/rpc) | RPC interface for Soroban simulation, submission, and contract interactions. |
-
-### Contracts
-
-| Site                                                                                                       | Notes                                                  |
-| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| [Smart Contract Fundamentals](https://developers.stellar.org/docs/learn/fundamentals/contract-development) | Core Soroban concepts and contract lifecycle overview. |

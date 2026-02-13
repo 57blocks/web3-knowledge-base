@@ -45,6 +45,17 @@ Category notes:
 | Send cross-chain message   | Messaging protocol | Send one basic message/call on testnet        | Message status, relayer path, delivery confirmation, retry behavior              |
 | Evaluate a protocol safely | Trust model        | Compare 2 protocols and summarize assumptions | Who validates, what can fail, upgrade/admin keys, emergency controls             |
 
+## Minimal Must-Learn Path
+
+Recommended MVP duration: 1 week.
+If a resource is long, complete only the required part listed in each step.
+
+1. Articles (Day 1): read [★Tendermint Explained](https://docs.tendermint.com/v0.34/introduction/what-is-tendermint.html) and [Cosmos SDK Documentation](https://docs.cosmos.network/). Required outcome: explain finality, validator assumptions, and relayer role.
+2. Networking background (Day 2): read [Ethereum Networking Layer](https://ethereum.org/en/developers/docs/networking-layer/). Required outcome: understand peer-to-peer propagation basics and why networking assumptions matter for cross-chain systems.
+3. Course (Day 3-4): complete core beginner modules in [★Cosmos SDK Developer Course (Interchain Academy)](https://ida.interchain.io/academy). Required outcome: describe IBC-style interoperability at a high level.
+4. Hands-on labs (Day 5-6): complete [★Chainlink CCIP: Get Started with CCIP (EVM)](https://docs.chain.link/ccip/getting-started/evm), then pick one from [LayerZero V2: Create Your First OApp](https://docs.layerzero.network/v2/get-started/create-lz-oapp/start), [Wormhole: Get Started with Wrapped Token Transfers (WTT)](https://wormhole.com/docs/products/token-transfers/wrapped-token-transfers/get-started/), or [Axelar: Programmatically Create a New Interchain Token](https://docs.axelar.dev/dev/send-tokens/interchain-tokens/developer-guides/programmatically-create-a-token/). Required outcome: complete one cross-chain message/transfer on testnet and verify both sides.
+5. Videos and comparison (Day 7): watch selected content from [★Cosmos YouTube Channel](https://www.youtube.com/@CosmosEcosystem) and [Whiteboard Crypto](https://www.youtube.com/@WhiteboardCrypto). Required outcome: compare at least two protocols by trust model and failure modes in your own notes.
+
 ## Recommended Articles
 
 - [★Tendermint Explained](https://docs.tendermint.com/v0.34/introduction/what-is-tendermint.html) - Consensus and finality basics that matter for cross-chain safety assumptions.

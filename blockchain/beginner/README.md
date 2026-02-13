@@ -32,6 +32,17 @@ Stage notes:
 - Stage 2: Defi — [Beginner](../../defi/beginner/README.md)
 - Stage 3: Cross Chain — [Beginner](../../cross-chain/beginner/README.md)
 
+## Minimal Must-Learn Path
+
+Recommended MVP duration: 1 week.
+If a resource is long, complete only the required part listed in each step.
+
+1. Articles (Day 1): read [★What is Web3?](https://ethereum.org/web3/) and [Why is blockchain important?](https://www.simplilearn.com/tutorials/blockchain-tutorial/why-is-blockchain-important). Required outcome: explain why blockchain exists and what problem it solves.
+2. Article deep dive (Day 2): study [Bitcoin protocol Explained](https://medium.com/coinmonks/bitcoin-white-paper-explained-part-1-4-16cba783146a). Required outcome: explain block, transaction, mining, and consensus at a high level.
+3. Book (Day 3-4): read selected parts of [★Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook). Required part: introductory chapters about keys/wallets, transactions, and blocks.
+4. Videos (Day 5-6): watch [★Blockchain - A visual demo](https://www.youtube.com/watch?v=bBC-nXj3Ng4) and [But how does bitcoin actually work?](https://www.youtube.com/watch?v=_160oMzblY8). Required outcome: connect visual intuition with the protocol concepts you read.
+5. Consolidation (Day 7): revisit the same resources and create a one-page summary of wallet, transaction lifecycle, and finality concepts. Required outcome: complete the page milestones (testnet tx + explorer verification + fee explanation).
+
 ## Recommended Articles
 
 - [★What is Web3?](https://ethereum.org/web3/) - High-level overview of Web3.

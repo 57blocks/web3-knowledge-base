@@ -95,6 +95,13 @@ If a resource is long, complete only the required part listed in each step.
 
 ## Common Websites
 
+### Contracts
+
+| Site                                                              | Notes                                     |
+| ----------------------------------------------------------------- | ----------------------------------------- |
+| [Solidity Docs](https://docs.soliditylang.org/)                   | Official language reference and basics.   |
+| [OpenZeppelin Contracts](https://docs.openzeppelin.com/contracts) | Reusable contract libraries and patterns. |
+
 ### Frontend
 
 | Site                                                                                           | Notes                                           |
@@ -109,10 +116,3 @@ If a resource is long, complete only the required part listed in each step.
 | ------------------------------------------------- | ---------------------------------------- |
 | [Alchemy Docs](https://docs.alchemy.com/)         | RPC provider docs and developer tooling. |
 | [QuickNode Docs](https://www.quicknode.com/docs/) | RPC endpoints and infrastructure guides. |
-
-### Contracts
-
-| Site                                                              | Notes                                     |
-| ----------------------------------------------------------------- | ----------------------------------------- |
-| [Solidity Docs](https://docs.soliditylang.org/)                   | Official language reference and basics.   |
-| [OpenZeppelin Contracts](https://docs.openzeppelin.com/contracts) | Reusable contract libraries and patterns. |
